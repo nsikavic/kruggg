@@ -114,6 +114,7 @@
             this.lstRezultati.Name = "lstRezultati";
             this.lstRezultati.Size = new System.Drawing.Size(120, 95);
             this.lstRezultati.TabIndex = 7;
+            this.lstRezultati.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.lstRezultati_MouseDoubleClick);
             // 
             // btnIzracunja
             // 
@@ -123,6 +124,7 @@
             this.btnIzracunja.TabIndex = 8;
             this.btnIzracunja.Text = "Izračunaj";
             this.btnIzracunja.UseVisualStyleBackColor = true;
+            this.btnIzracunja.Click += new System.EventHandler(this.btnIzracunja_Click);
             // 
             // btnOcisti
             // 
